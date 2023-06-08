@@ -1,0 +1,72 @@
+.signin{
+margin-left: 40%;
+
+
+.fcontainer{
+        background-color: #f5f5f5;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 50%; 
+        
+        button:hover{
+            background:darkblue;
+            color:white;
+        }
+        h2{
+            font-size: 2rem;
+            color: black;
+        }
+      
+        ::placeholder{
+            font-size: 40%;
+        }
+
+        .flabel{
+            font-size: 2rem;
+
+           
+        }
+        .formGroup{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+.finput{
+    font-size: 2rem;
+   
+    margin: 10px;
+    display: flex;
+    width: 50%;  
+}
+.fbutton{
+    background-color: white;
+    border-style: none;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+    }
+
+
+    @media only screen and (max-width: 930px) {
+ 
+.fcontainer{
+    max-width: 70%;
+        ::placeholder{
+            font-size: 40%;
+        }
+        .finput{
+            font-size: 1rem;
+        }
+        .finput{
+            font-size: 1rem;
+            min-height: 40px;
+            margin: 10px;
+            display: flex;
+            width: 70%;  
+        }
+}
+    }
+
+}

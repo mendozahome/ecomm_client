@@ -1,0 +1,119 @@
+.navbar{
+    height:80px;
+    width: 100vw;
+    .item:hover{
+       color: #2879fe;
+    }
+    .cartIcon:hover{
+        color: #2879fe;
+    }
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+.item{
+    display:flex;
+    align-items: center;
+    font-size:18px;
+    transition: 0.3s;
+}
+
+
+        .left{
+            display:flex;
+            align-items: center;
+            gap: 25px;
+            font-size: 30px;
+        }
+        .center{
+           font-size: 30px;
+          display: flex;
+          gap: 25px;
+          
+        }
+        .right{
+display:flex;
+align-items: center;
+gap: 25px;
+
+.icons{
+    display: flex;
+    gap: 15px;
+    color: #777;
+    cursor: pointer;
+    margin-right: 2rem; 
+.cartIcon{
+    position: relative;
+    span{
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #2879fe;
+        color:white;
+        position: absolute;
+right: -10px;
+top: -10px;
+display:flex;
+align-items: center;
+justify-content: center;
+
+    }
+}
+            }
+        }
+    }
+.nav-btn{
+    cursor:pointer;
+    display: none;
+}
+.nav-btn{
+    background-color: white;
+    border-style: none;
+}
+.nav-close-btn{
+    background-color: #2879fe;
+    border-style: none;
+}
+}
+    @media only screen and (max-width: 900px){
+    .wrapper{
+flex-direction: row;
+    }
+    }
+
+    @media only screen and (max-width: 1200px){
+        .navbar .nav-btn{
+            display: block;
+            opacity: 1;
+        }
+        .center{
+            position: fixed;
+            top: 0;
+            left: 0;
+            height:50%;
+            width:100%;
+            flex-direction: column;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            gap:1.5rem;
+            background-color: #2879fe;
+            transition: 1s;
+            transform: translateY(-100vh);
+            z-index:4;
+
+            
+            .item:hover{
+                color: white;
+             }  
+    
+        }
+    
+        .responsive_nav{
+            transform: none;
+        }
+        
+}

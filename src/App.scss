@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+margin:0px;
+padding:0px;
+max-width: 100vw;
+max-height: 100vh;
+
+.app{
+min-height: min-content;
+min-width: max-width;
+    .link{
+        color: inherit;
+        text-decoration: none;
+    }
+
+
+}
+    
+    @media only screen and (max-width: 1200px) {
+        /* hide element on small screens */
+        .slider{
+        display: none;
+        }
+        .categories{
+            display: none;
+        }
+        }
+
+        @media only screen and (max-width: 900px) {
+            /* hide element on small screens */
+            .cart{
+                right: 20px;
+                top:100px;
+            }
+            .signlogin{
+                right: 20px;
+                top:120px;
+            }
+            }
+ 
+}

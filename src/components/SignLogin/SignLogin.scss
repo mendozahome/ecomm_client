@@ -1,0 +1,36 @@
+.signlogin{
+    position: absolute;
+    right: 20px;
+    top:70px;
+    z-index: 999;
+    background-color: white;
+    padding:10px;
+    box-shadow: 10px 10px 9px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 9px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 9px -3px rgba(0,0,0,0.75);
+    
+    .contain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50%;
+        max-width: 100%;
+        max-height: 100%;
+        flex-direction: column;
+    
+        button{
+            width: 120px;
+            height: 40px;
+            color:white;
+            background-color:#2879fe;
+            border: none;
+            margin:.5rem;
+            font-size: 20px;
+    
+    
+        }
+        button:hover{
+            background:darkblue;
+        }
+
+}}

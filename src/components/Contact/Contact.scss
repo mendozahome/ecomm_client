@@ -1,0 +1,44 @@
+.contactfoot{
+    background-color: royalblue;
+    color:white;
+    padding:15px;
+display:flex;
+justify-content: center;
+
+    .wrapper{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input{
+            padding: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+        }
+        button{
+            padding: 10px;
+            color: white;
+            background-color: #333;
+            border-radius: 0 5px 5px 0;
+            border:none;
+        }
+
+        .icons{
+            display:flex;
+            gap:10px
+        }
+    }
+    @media only screen and (max-width: 575px){
+        .contactfoot{
+flex-direction: column;
+        }
+        .wrapper{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    }
+   
+    }
+   
+}

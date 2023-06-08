@@ -1,0 +1,17 @@
+
+.contactLeft{
+    font-size: 100%;
+    max-width: 100%;
+    margin:auto;
+    max-width:50vw;
+    color: black;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 900px) {
+    .contactLeft{
+        font-size: 100%;
+    }
+}
+
+
