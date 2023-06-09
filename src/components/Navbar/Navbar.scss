@@ -115,5 +115,12 @@ flex-direction: row;
         .responsive_nav{
             transform: none;
         }
+
+        @media screen and (orientation:landscape){
+               .center{
+                height:100%;
+                width:100%;
+               }
+        }
         
 }

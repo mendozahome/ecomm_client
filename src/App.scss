@@ -8,7 +8,10 @@ margin:0px;
 padding:0px;
 max-width: 100vw;
 max-height: 100vh;
-
+a{
+  color:gray;  
+  cursor: pointer;
+}
 .app{
 min-height: min-content;
 min-width: max-width;
