@@ -23,7 +23,7 @@ setUser((currentUser) =>({
 };
 
 const handleLogin = async () => {
-  const url = `http://localhost:1337/api/auth/local`;
+  const url = `https://ecomm-server-app.onrender.com/api/auth/local`;
 try{
 if(user.identifier && user.password){
   const {data} = await axios.post(url, user);

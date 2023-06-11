@@ -12,7 +12,7 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import { Container } from "reactstrap"
 import "./App.scss"
-import './index.css'
+
 import { ToastContainer } from 'react-toastify';
 import { Protector } from "./helpers"
 
