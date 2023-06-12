@@ -27,7 +27,7 @@ const Product = () => {
   <div className="images">
   <img
                 src={
-                  process.env.REACT_APP_UPLOAD_URL_CLOUD +
+                  
                   data?.attributes?.img?.data?.attributes?.url
                 }
                 alt=""
@@ -35,7 +35,7 @@ const Product = () => {
               />
     <img
                 src={
-                  process.env.REACT_APP_UPLOAD_URL_CLOUD +
+                  
                   data?.attributes?.img2?.data?.attributes?.url
                 }
                 alt=""
@@ -45,7 +45,7 @@ const Product = () => {
   <div className="mainImg">
   <img
                 src={
-                  process.env.REACT_APP_UPLOAD_URL_CLOUD +
+                  
                   data?.attributes[selectedImg]?.data?.attributes?.url
                 }
                 alt=""
