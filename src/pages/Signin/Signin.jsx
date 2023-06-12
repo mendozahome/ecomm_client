@@ -4,15 +4,14 @@ import axios from 'axios';
 import './Signin.scss'
 import { Col, Row, Button, FormGroup, Input } from 'reactstrap'
 import { useNavigate } from 'react-router-dom';
-import { Formik, Form, Field, ErrorMessage} from 'formik'
-import * as Yup from 'yup'
+
 
 const initialUser = {email: "", password:"", username: "" }
 
 function Signin(){
 
   const [user,setUser] = useState(initialUser)
-
+ 
   const navigate = useNavigate();
 
   const signUp = async () =>{

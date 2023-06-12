@@ -44,7 +44,7 @@ return (
     <h1>Products in your cart</h1>
     {products?.map((item) => (
       <div className="item" key={item.id}>
-        <img src={process.env.REACT_APP_UPLOAD_URL_CLOUD + item.img} alt="" />
+        <img src={item.img} alt="" />
         <div className="details">
           <h1>{item.title}</h1>
           <p>{item.desc?.substring(0, 100)}</p>
