@@ -79,7 +79,7 @@ const Product = () => {
 <div className="info">
   <span>Vendor: Polo</span>
   <span>Product Type: T-shirt</span>
-  <span> Tag: T-Shirt, Women, Top</span>
+  <span>Tag: T-Shirt, Women, Top</span>
 </div>
 <hr />
 <div className="info">

@@ -23,7 +23,7 @@ const {data,loading,error} = useFetch(`/products?populate=*&[filters][type][$eq]
 {error 
 ? "something went wrong :(" 
 : loading 
-? "loading" 
+? "loading Render Free Plan needs 2 minutes to Kick Start.. Thank You for understanding" 
 : data?.map((item)=>
   <Card item={item} key={item.id}/> 
 )}
